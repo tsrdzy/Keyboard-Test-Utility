@@ -1,0 +1,241 @@
+header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #000;
+}
+header>div {
+    width: 100%;
+    margin: 0 auto;
+}
+header>div>h2 {
+    line-height: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Himagsikan','华文琥珀';
+}
+main {
+    width: 100%;
+    height: auto;
+
+}
+main>div {
+    margin: 0 auto;
+    margin-top: 20px;
+    /* width: 80%; */
+    height: auto;
+    border: 1px solid rgb(219, 219, 219);
+    width: 1050px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+main>.content {
+    background-color: rgb(44, 44, 44);
+}
+main>.footer {
+    border: 0px;
+}
+
+.keyboard {
+    display: flex;
+    justify-content: center;
+
+}
+.keyboard_left,
+.keyboard_middle {
+    margin-right: 20px;
+}
+.keyboard_left_1,
+.keyboard_left_2,
+.keyboard_left_3,
+.keyboard_left_4,
+.keyboard_left_5,
+.keyboard_left_6,
+.keyboard_middle_1,
+.keyboard_right_left_1,
+.keyboard_right_left_2,
+.keyboard_right_left_3,
+.keyboard_right_left_4,
+.keyboard_right_left_5 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.keyboard_left_1_1 {
+    margin-right: 26px;
+}
+.keyboard_left_1 {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.keyboard_middle_1,
+.keyboard_right_left_kong{
+    margin-bottom: 20px;
+}
+.key {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #aaa;
+    margin: 2px;
+    border-radius: 3px;
+    font-size: 12px;
+    background-image: linear-gradient(#414141, #000000);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 1px rgb(0, 0, 0),0px 0px 1px rgb(0, 0, 0);
+}
+.key_kong {
+    width: 42px;
+    height: 42px;
+    margin: 2px;
+}
+
+.keyboard_left_1_1,
+.keyboard_left_1_2,
+.keyboard_left_1_3,
+.keyboard_left_1_4,
+.keyboard_left_1_5,
+.keyboard_left_1_6,
+.keyboard_middle_1,
+.keyboard_right_left_kong,
+.keyboard_right,
+.keyboard_right_right_1,
+.keyboard_right_right_2,
+.keyboard_right_right_3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.keyboard_left_1>div>div,
+.keyboard_left_2>div,
+.keyboard_left_3>div,
+.keyboard_left_4>div,
+.keyboard_left_5>div,
+.keyboard_left_6>div,
+.keyboard_right_left_1,
+.keyboard_right_left_2,
+.keyboard_right_left_3,
+.keyboard_right_left_4,
+.keyboard_right_left_5,
+.keyboard_right_right_1,
+.keyboard_middle_1 {
+    line-height: 40px;
+    text-align: center;
+}
+.keyboard_right_right_2,
+.keyboard_right_right_3 {
+    line-height: 86px;
+    text-align: center;
+}
+.keyboard_left_2>div>p,
+.keyboard_left_3>div>p,
+.keyboard_left_4>div>p,
+.keyboard_left_5>div>p,
+.keyboard_right_left_1>div>p,
+.keyboard_right_left_5>div>p {
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.key_50 {
+    width: 50px;
+}
+.key_80 {
+    width: 80px;
+}
+.key_86 {
+    width: 86px;
+}
+.key_60 {
+    width: 60px;
+}
+.key_73 {
+    width: 73px;
+}
+.key_93 {
+    width: 93px;
+}
+.key_119 {
+    width: 119px;
+}
+.key_200 {
+    width: 286px;
+}
+.key_h86 {
+    height: 86px;
+}
+
+.key_Active {
+    background-image: linear-gradient(#000000, #000000);
+}
+.key_Pressed {
+    background-image: linear-gradient(#414141, #000000);
+}
+.key_Nerver {
+    background-image: linear-gradient(#b1b1b1, #494949);
+}
+.footer_list,
+.footer_keycode {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* flex-wrap: nowrap; */
+    height: 42px;
+}
+.footer>div>p,
+.footer>p {
+    height: 40px;
+    color: #000;
+}
+.footer_list>div {
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+
+}
+.footer {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer1 {
+    width: 100%;
+    height: 40px;
+    margin-top: 200px;
+}
+.footer1_nav {
+    margin: 0 auto;
+    height: 100%;
+    width: 192px;
+}
+.footer1_nav li{
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100%;
+    line-height: 40px;
+    font-size: 25px;
+    height: 38px;
+    width: 38px;
+    background-color: rgba(61, 61, 61, 0.8);
+    border-radius: 10px;
+}
+.footer1_nav li a:hover {
+    color: rgb(255, 255, 255)
+}
+.footer1_nav li a {
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer1_nav_font h2 {
+    text-align: center;
+    font-size: 14px;
+  
+}
+.footer1_nav_font h2 a {
+    color: rgba(121, 121, 121, 0.5);
+    font-family: 'Comic Sans MS';
+    text-shadow:  0 0 1px rgb(100, 100, 100), -0 -0 1px rgb(100, 100, 100);
+}
